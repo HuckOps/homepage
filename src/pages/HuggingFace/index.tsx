@@ -23,7 +23,7 @@ type Item = {
   private: boolean;
 };
 
-const API = "https://hf-mirror.com/api";
+const API = "https://huggingface.co/api";
 
 function fmt(iso: string): string {
   const d = new Date(iso);
